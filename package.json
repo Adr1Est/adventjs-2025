@@ -1,0 +1,21 @@
+{
+  "name": "advent-js-2025",
+  "version": "0.0.1",
+  "description": "advent-js-2025",
+  "main": "src/index.ts",
+  "type": "module",
+  "exports": "./dist/index.mjs",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "pkgroll",
+    "start": "node dist/index.ts"
+  },
+  "author": "Adr1Est",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.10.2",
+    "pkgroll": "^2.21.4",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

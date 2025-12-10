@@ -1,0 +1,47 @@
+// Los elfos han encontrado el código cifrado que protege la puerta del taller de Santa 🔐. El PIN tiene 4 dígitos, y está escondido dentro de bloques como estos:
+
+// [1++][2-][3+][<]
+// Escribe una función que descifre el PIN a partir del código.
+
+// El código está formado por bloques entre corchetes [...] y cada bloque genera un dígito del PIN.
+
+// Un bloque normal tiene la forma [nOP...], donde n es un número (0-9) y después puede haber una lista de operaciones (opcionales).
+
+// Las operaciones se aplican en orden al número y son:
+
+// + suma 1
+// - resta 1
+// El resultado siempre es un dígito (aritmética mod 10), por ejemplo 9 + 1 → 0 y 0 - 1 → 9.
+
+// También existe el bloque especial [<], que repite el dígito del bloque anterior.
+
+// Si al final hay menos de 4 dígitos, se debe devolver null.
+
+function decodeSantaPin(code: string): string | null {
+  const items = code
+    .split("[")
+    .map(char => char.replace("]", ""))
+    .filter(char => char !== "");
+
+  const key: number[] = [];
+  for(let i = 0; i < items.length; i++){
+    let num = items[i][0] !== "<" ? parseInt(items[i][0]) : key[key.length - 1];
+    for(const char of items[i]){
+      if(char === "+") num = (num + 1) % 10;
+      if(char === "-") num = (num - 1 + 10) % 10;
+    }
+    key.push(num)
+  }
+  return key.length < 4 ? null : key.join("");
+}
+
+export const decodeSantaPinTest = () => {
+  console.log(decodeSantaPin('[1++][2-][3+][<]'));
+  // "3144"
+
+  console.log(decodeSantaPin('[9+][0-][4][<]'));
+  // "0944"
+
+  console.log(decodeSantaPin('[1+][2-]'));
+  // null (solo 2 dígitos)
+}
