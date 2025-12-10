@@ -1,4 +1,16 @@
-# adventjs-2025
+# AdventJS 2025
+
+- Retos de código navideños: adventjs.dev
+- Creado por Midudev
+
+## Instalación
+
+```bash
+npm install
+npm run dev
+```
+
+## Mis resultados
 
 | Día | Estrellas ⭐         |
 |:---:|:---------------------:|
