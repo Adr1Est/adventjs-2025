@@ -1,7 +1,7 @@
 import { filterGiftsTest } from "@/dia-1";
 import { manufactureGiftsTest } from "@/dia-2";
-import { drawGiftTest } from "./dia-3";
-import { decodeSantaPinTest } from "./dia-4";
+import { drawGiftTest } from "@/dia-3";
+import { decodeSantaPinTest } from "@/dia-4";
 
 // console.log("DÍA 1");
 // filterGiftsTest();
