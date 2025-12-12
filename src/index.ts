@@ -4,6 +4,7 @@ import { drawGiftTest } from "@/dia-3";
 import { decodeSantaPinTest } from "@/dia-4";
 import { timeUntilTakeOffTest } from "@/dia-5";
 import { matchGlovesTest } from "@/dia-6";
+import { findUnsafeGiftsTest } from "./dia-11";
 
 // console.log("DÍA 1");
 // filterGiftsTest();
@@ -20,5 +21,8 @@ import { matchGlovesTest } from "@/dia-6";
 // console.log("DÍA 5");
 // timeUntilTakeOffTest();
 
-console.log("DÍA 6");
-matchGlovesTest();
+// console.log("DÍA 6");
+// matchGlovesTest();
+
+console.log("DÍA 11");
+findUnsafeGiftsTest();
