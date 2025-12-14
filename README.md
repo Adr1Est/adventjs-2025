@@ -26,3 +26,5 @@ npm run dev
 |10   | Por hacer              |
 |11   | ⭐⭐⭐⭐⭐ + ⭐⭐⭐|
 |12   | Por hacer              |
+|13   | Por hacer              |
+|14   | ⭐⭐⭐⭐ + ⭐⭐⭐  |
