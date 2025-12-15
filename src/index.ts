@@ -6,6 +6,7 @@ import { timeUntilTakeOffTest } from "@/dia-5";
 import { matchGlovesTest } from "@/dia-6";
 import { findUnsafeGiftsTest } from "@/dia-11";
 import { findGiftPathTest } from "@/dia-14";
+import { runFactoryTest } from "./dia-13/intex";
 
 // console.log("DÍA 1");
 // filterGiftsTest();
@@ -28,5 +29,11 @@ import { findGiftPathTest } from "@/dia-14";
 // console.log("DÍA 11");
 // findUnsafeGiftsTest();
 
-console.log("DÍA 14");
-findGiftPathTest();
+// console.log("DÍA 12");
+
+
+// console.log("DÍA 13"); WIP
+// runFactoryTest();
+
+// console.log("DÍA 14");
+// findGiftPathTest();
