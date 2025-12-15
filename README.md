@@ -20,7 +20,7 @@ npm run dev
 |4    | ⭐⭐⭐⭐ + ⭐⭐     |
 |5    | ⭐⭐⭐⭐⭐ + ⭐⭐  |
 |6    | ⭐⭐⭐⭐⭐ + ⭐⭐  |
-|7    | Por hacer              |
+|7    | ⭐⭐⭐⭐⭐ + ⭐     |
 |8    | Por hacer              |
 |9    | Por hacer              |
 |10   | Por hacer              |

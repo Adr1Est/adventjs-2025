@@ -7,6 +7,7 @@ import { matchGlovesTest } from "@/dia-6";
 import { findUnsafeGiftsTest } from "@/dia-11";
 import { findGiftPathTest } from "@/dia-14";
 import { runFactoryTest } from "./dia-13/intex";
+import { drawTreeTest } from "./dia-7";
 
 // console.log("DÍA 1");
 // filterGiftsTest();
@@ -26,10 +27,13 @@ import { runFactoryTest } from "./dia-13/intex";
 // console.log("DÍA 6");
 // matchGlovesTest();
 
+console.log("DÍA 7");
+drawTreeTest();
+
 // console.log("DÍA 11");
 // findUnsafeGiftsTest();
 
-// console.log("DÍA 12");
+// console.log("DÍA 12");WIP
 
 
 // console.log("DÍA 13"); WIP
