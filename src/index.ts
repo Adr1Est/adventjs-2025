@@ -4,11 +4,11 @@ import { drawGiftTest } from "@/dia-3";
 import { decodeSantaPinTest } from "@/dia-4";
 import { timeUntilTakeOffTest } from "@/dia-5";
 import { matchGlovesTest } from "@/dia-6";
-import { findUnsafeGiftsTest } from "@/dia-11";
-import { findGiftPathTest } from "@/dia-14";
-import { runFactoryTest } from "@/dia-13";
 import { drawTreeTest } from "@/dia-7";
 import { findUniqueToyTest } from "@/dia-8";
+import { findUnsafeGiftsTest } from "@/dia-11";
+import { runFactoryTest } from "@/dia-13";
+import { findGiftPathTest } from "@/dia-14";
 import { drawTableTest } from "@/dia-15";
 
 // console.log("DÍA 1");
@@ -34,6 +34,12 @@ import { drawTableTest } from "@/dia-15";
 
 // console.log("DÍA 8"); WIP
 // findUniqueToyTest();
+
+// console.log("DÍA 9"); WIP
+
+
+// console.log("DÍA 10"); WIP
+
 
 // console.log("DÍA 11");
 // findUnsafeGiftsTest();
