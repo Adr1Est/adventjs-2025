@@ -6,6 +6,7 @@ import { timeUntilTakeOffTest } from "@/dia-5";
 import { matchGlovesTest } from "@/dia-6";
 import { drawTreeTest } from "@/dia-7";
 import { findUniqueToyTest } from "@/dia-8";
+import { maxDepthTest } from "@/dia-10";
 import { findUnsafeGiftsTest } from "@/dia-11";
 import { runFactoryTest } from "@/dia-13";
 import { findGiftPathTest } from "@/dia-14";
@@ -39,8 +40,8 @@ import { packGiftsTest } from "@/dia-16";
 // console.log("DÍA 9"); WIP
 
 
-// console.log("DÍA 10"); WIP
-
+console.log("DÍA 10");
+maxDepthTest();
 
 // console.log("DÍA 11");
 // findUnsafeGiftsTest();
@@ -57,5 +58,5 @@ import { packGiftsTest } from "@/dia-16";
 // console.log("DÍA 15");
 // drawTableTest();
 
-console.log("DÍA 16");
-packGiftsTest();
+// console.log("DÍA 16");
+// packGiftsTest();
