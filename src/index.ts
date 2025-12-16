@@ -10,6 +10,7 @@ import { findUnsafeGiftsTest } from "@/dia-11";
 import { runFactoryTest } from "@/dia-13";
 import { findGiftPathTest } from "@/dia-14";
 import { drawTableTest } from "@/dia-15";
+import { packGiftsTest } from "@/dia-16";
 
 // console.log("DÍA 1");
 // filterGiftsTest();
@@ -32,8 +33,8 @@ import { drawTableTest } from "@/dia-15";
 // console.log("DÍA 7");
 // drawTreeTest();
 
-console.log("DÍA 8");
-findUniqueToyTest();
+// console.log("DÍA 8");
+// findUniqueToyTest();
 
 // console.log("DÍA 9"); WIP
 
@@ -55,3 +56,6 @@ findUniqueToyTest();
 
 // console.log("DÍA 15");
 // drawTableTest();
+
+console.log("DÍA 16");
+packGiftsTest();
