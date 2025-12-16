@@ -32,8 +32,8 @@ import { drawTableTest } from "@/dia-15";
 // console.log("DÍA 7");
 // drawTreeTest();
 
-// console.log("DÍA 8"); WIP
-// findUniqueToyTest();
+console.log("DÍA 8");
+findUniqueToyTest();
 
 // console.log("DÍA 9"); WIP
 
@@ -53,5 +53,5 @@ import { drawTableTest } from "@/dia-15";
 // console.log("DÍA 14");
 // findGiftPathTest();
 
-console.log("DÍA 15");
-drawTableTest();
+// console.log("DÍA 15");
+// drawTableTest();

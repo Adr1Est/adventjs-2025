@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "target": "ES2020",
     "module": "Preserve", // Conservar el tipo de módulo
     "strict": true, // Habilitar todas las opciones de comprobación de tipo
     "moduleDetection": "force", // Forzar la detección de módulos

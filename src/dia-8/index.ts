@@ -5,8 +5,18 @@
 // Si no hay ninguna, devuelve una cadena vacía ("").
 
 function findUniqueToy(toy: string): string {
-  // Code here
-  return '';
+  const inventory: Record<string, number> = {};
+  for(let i = 0; i < toy.length; i++){
+    if(toy[i].toLowerCase() in inventory){
+      inventory[toy[i].toLowerCase()]++;
+    }else{
+      inventory[toy[i].toLowerCase()] = 1;
+    }
+  }
+  for(const char of toy){
+    if(inventory[char.toLowerCase()] === 1) return char;
+  }
+  return "";
 }
 
 export const findUniqueToyTest = () => {
